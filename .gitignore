@@ -3,3 +3,12 @@
 ################################################################################
 
 /.vs/PruebaFuncion/v14/.suo
+/.vs/PruebaFuncion/v15/Server/sqlite3/db.lock
+/.vs/PruebaFuncion/v15/Server/sqlite3/storage.ide
+/.vs/PruebaFuncion/v15/Server/sqlite3/storage.ide-shm
+/.vs/PruebaFuncion/v15/Server/sqlite3/storage.ide-wal
+/.vs/PruebaFuncion/v15/.suo
+/Funciones/bin/*
+/Funciones/obj/*
+/PruebaFuncion/bin/*
+/PruebaFuncion/obj/*

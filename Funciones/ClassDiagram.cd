@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ServicesLogic.Functions.Ackley">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Functions\Ackley.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicesLogic.Functions.Funcion">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgQ=</HashCode>
+      <FileName>Functions\Funcion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicesLogic.Functions.Griewank">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Functions\Griewank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicesLogic.Functions.Rastrigin">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Functions\Rastrigin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicesLogic.Functions.Schwefel">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Functions\Schwefel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicesLogic.Functions.Sphere">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Functions\Sphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServicesLogic.Functions.Step">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Functions\Step.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

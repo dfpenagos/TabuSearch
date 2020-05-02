@@ -1,0 +1,100 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="else" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="mejor" priority="0" />
+      <Item value="worst" priority="0" />
+      <Item value="Console`0" priority="0" />
+      <Item value="EDif`0" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="public" priority="2" />
+      <Item value="override" priority="2" />
+      <Item value="var" priority="3" />
+      <Item value="cadena" priority="2" />
+      <Item value="return" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="Poblacion" priority="0" />
+      <Item value="Cromosoma" priority="0" />
+      <Item value="Fitness" priority="0" />
+      <Item value="sol" priority="0" />
+      <Item value="EDkmeans`0" priority="0" />
+      <Item value="virtual" priority="0" />
+      <Item value="p1" priority="0" />
+      <Item value="TamPoblacion" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="int" priority="1" />
+      <Item value="Dimensiones" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Abs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PruebaFuncion.FilaSolucion">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:FilaSolucion.cs" caret="757" fromTop="23" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDiferencial.cs" caret="2709" fromTop="23" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Program.cs" caret="2734" fromTop="12" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Calculos.cs" caret="0" fromTop="0" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="387" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Program.cs" caret="2274" fromTop="30" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Program.cs" caret="2669" fromTop="11" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDiferencial.cs" caret="1650" fromTop="23" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDiferencial.cs" caret="1378" fromTop="15" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDiferencial.cs" caret="2517" fromTop="15" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDiferencial.cs" caret="2611" fromTop="19" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="292" fromTop="5" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="5349" fromTop="19" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Calculos.cs" caret="40" fromTop="2" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Calculos.cs" caret="938" fromTop="22" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Calculos.cs" caret="322" fromTop="10" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:Calculos.cs" caret="641" fromTop="14" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="2228" fromTop="26" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="1462" fromTop="5" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="2848" fromTop="18" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="3271" fromTop="15" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="438" fromTop="15" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="1136" fromTop="26" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="1700" fromTop="4" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="2711" fromTop="24" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="1412" fromTop="5" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="3500" fromTop="15" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="4263" fromTop="8" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="1464" fromTop="18" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="4346" fromTop="17" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="4427" fromTop="18" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="4710" fromTop="22" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="2246" fromTop="33" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="2494" fromTop="33" />
+      <File id="C4FDC17E-DB76-4F63-8FEA-7133AE758BC9/f:EDKmeans.cs" caret="1318" fromTop="3" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.6\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
