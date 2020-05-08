@@ -28,7 +28,7 @@ namespace OptimizacionContinua.EstadoSimple.TS
         public override void Ejecutar()
         {
             EFOs = 0;                                                               // Variable de Inicio del ciclo
-            var maximumLenght = 10;                                                 // Tamaño maximo de la lista
+                                                                                    // Tamaño maximo de la lista
             var s = new Solucion(TotalDimensiones, this);                           //Crea un objeto de la clase solución para el algoritmo actual
             s.InicializarAleatorio();                                               //Inicializa el objeto solución
             MejorSolucion = new Solucion(s);                                        //Crea un nuevo objeto copiando el contenido del objeto s (Constructor de copia)
@@ -39,20 +39,16 @@ namespace OptimizacionContinua.EstadoSimple.TS
             while (EFOs < MaximoNumeroEvaluacionesFuncionObjetivo)
             {
 
-                if (solutionList.Count > maximumLenght) {                           // Se evalua si la lista contiene una cantidad mayor de los elementos permitidos.
+                if (solutionList.Count > tabuListLenght) {                           // Se evalua si la lista contiene una cantidad mayor de los elementos permitidos.
                     solutionList.RemoveAt(0);                                       // Cuando se llena la lista tabú se remueve el elemento más viejo.
                 }
-                var r = Tweek(new Solucion(s));
-                r.CalcularFitness();
+                var r = Tweek(s);
 
                 for (int j = neighbors - 1; j>=0; j--) {
-                    var w = Tweek(new Solucion(s));
-                    w.CalcularFitness();
-                    if ((!ContainsSolutionInList(w, solutionList) && 
-                        ((w.Fitness < r.Fitness) || 
-                        (ContainsSolutionInList(r, solutionList))))) {
+                    var w = Tweek(s);
+                    if ((!ContainsSolutionInList(w, solutionList) && (w.Fitness < r.Fitness)) || 
+                        (ContainsSolutionInList(r, solutionList))) {
                         r = new Solucion(w);
-                        r.CalcularFitness();
                     }
                 }
 
@@ -63,7 +59,6 @@ namespace OptimizacionContinua.EstadoSimple.TS
 
                 if (s.Fitness < MejorSolucion.Fitness) {                             //Si el nuevo valor es mejor se reemplaza la mejor solución (minimizando)
                     MejorSolucion = new Solucion(s);                                //Crea un nuevo objeto copiando el contenido del objeto s (Constructor de copia)
-                    MejorSolucion.CalcularFitness();
                 }
 
                 if (Math.Abs(s.Fitness - MiFuncion.FitnessOptimo) < 1e-12) break;   //Se sale del ciclo cuando se logra llegar a un valor 
@@ -77,9 +72,10 @@ namespace OptimizacionContinua.EstadoSimple.TS
 
         public Solucion Tweek(Solucion solution) {
             var newSolution = new Solucion(solution);
-            for (int i = 0; iMaxTweek < TotalDimensiones; iMaxTweek++) {
+            for (int i = 0; i < TotalDimensiones; i++) {
                 newSolution.Dimensiones[i] = newSolution.Dimensiones[i] + GetRandomNumber();
             }
+            newSolution.CalcularFitness();
             return newSolution;
         }
 
@@ -89,9 +85,9 @@ namespace OptimizacionContinua.EstadoSimple.TS
             return random.NextDouble() * (iMaxTweek - iMinTweek) + iMinTweek;
         }
 
-        public bool ContainsSolutionInList(Solucion W, List<Solucion> list) {
+        public bool ContainsSolutionInList(Solucion oSolution, List<Solucion> list) {
             for (int i = 0; i < list.Count; i++) {
-                if (list[i].Equals(W)) {
+                if (list[i].Equals(oSolution)) {
                     return true;
                 }
             }
